@@ -17,3 +17,11 @@ for question, answer in questions.items():
 print(f"Your score: {score}/{len(questions)}")
 print(f"Your score: {score}/{len(questions)}")
 print(f"Percentage: {(score / len(questions)) * 100:.2f}%")
+
+import random
+
+question_items = list(questions.items())
+random.shuffle(question_items)
+
+for question, answer in question_items:
+    ...
