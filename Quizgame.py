@@ -15,3 +15,5 @@ for question, answer in questions.items():
         print(f"Wrong! The correct answer is {answer}")
 
 print(f"Your score: {score}/{len(questions)}")
+print(f"Your score: {score}/{len(questions)}")
+print(f"Percentage: {(score / len(questions)) * 100:.2f}%")
